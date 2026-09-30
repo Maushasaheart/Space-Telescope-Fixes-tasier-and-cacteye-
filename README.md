@@ -26,8 +26,7 @@ An initial pause when a new planet comes into view is possible because the reque
 REQUIREMENTS
 KSP 1.12.x, CactEye, Parallax Continued and the existing Harmony dependency normally found in GameData/000_Harmony. No game assemblies or dependency DLLs are redistributed.
 
-SOURCE MATCH
-Your uploaded September 30 KSP log identifies CactEye2 1.5.4.2 and ParallaxContinued 1.0.0+c449da19891ae8a39d569d3de0176a8ca16142b3. The Parallax source reviewed is that exact commit. CactEye camera source was reviewed from tree f4d0d09e7b00b398dde5b664a768a0250336516a. Your installation may have changed since the log.
+1.0.0+c449da19891ae8a39d569d3de0176a8ca16142b3. The Parallax source reviewed is that exact commit. CactEye camera source was reviewed from tree f4d0d09e7b00b398dde5b664a768a0250336516a. Your installation may have changed since the log.
 
 TESTING AND LIMITS
 Compiled against real KSP and Unity references as a .NET Framework DLL. Twenty two simulated checks passed for visibility, texture retention and release, material preservation, avoiding duplicate async loads, failure cooldown, scene cleanup and exception cleanup. Test sources are included under Tests.
